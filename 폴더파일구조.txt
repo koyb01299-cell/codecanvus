@@ -1,0 +1,262 @@
+OS SSD 볼륨에 대한 폴더 경로의 목록입니다.
+볼륨 일련 번호는 48E7-FC7B입니다.
+C:.
+│  next-env.d.ts
+│  package-lock.json
+│  package.json
+│  README.md
+│  tailwind.config.ts
+│  tsconfig.json
+│  폴더파일구조.txt
+│  
+├─.next
+│  │  app-build-manifest.json
+│  │  build-manifest.json
+│  │  package.json
+│  │  react-loadable-manifest.json
+│  │  trace
+│  │  
+│  ├─cache
+│  │  │  .rscinfo
+│  │  │  
+│  │  ├─swc
+│  │  │  └─plugins
+│  │  │      └─v7_windows_x86_64_4.0.0
+│  │  └─webpack
+│  │      ├─client-development
+│  │      │      0.pack.gz
+│  │      │      1.pack.gz
+│  │      │      2.pack.gz
+│  │      │      3.pack.gz
+│  │      │      4.pack.gz
+│  │      │      5.pack.gz
+│  │      │      6.pack.gz
+│  │      │      7.pack.gz
+│  │      │      8.pack.gz
+│  │      │      9.pack.gz
+│  │      │      index.pack.gz
+│  │      │      index.pack.gz.old
+│  │      │      
+│  │      ├─client-development-fallback
+│  │      │      0.pack.gz
+│  │      │      index.pack.gz
+│  │      │      
+│  │      └─server-development
+│  │              0.pack.gz
+│  │              1.pack.gz
+│  │              10.pack.gz
+│  │              2.pack.gz
+│  │              3.pack.gz
+│  │              4.pack.gz
+│  │              5.pack.gz
+│  │              6.pack.gz
+│  │              7.pack.gz
+│  │              8.pack.gz
+│  │              9.pack.gz
+│  │              index.pack.gz
+│  │              index.pack.gz.old
+│  │              
+│  ├─server
+│  │  │  app-paths-manifest.json
+│  │  │  interception-route-rewrite-manifest.js
+│  │  │  middleware-build-manifest.js
+│  │  │  middleware-manifest.json
+│  │  │  middleware-react-loadable-manifest.js
+│  │  │  next-font-manifest.js
+│  │  │  next-font-manifest.json
+│  │  │  pages-manifest.json
+│  │  │  server-reference-manifest.js
+│  │  │  server-reference-manifest.json
+│  │  │  webpack-runtime.js
+│  │  │  
+│  │  ├─app
+│  │  │      page.js
+│  │  │      page_client-reference-manifest.js
+│  │  │      
+│  │  └─vendor-chunks
+│  │          @swc.js
+│  │          framer-motion.js
+│  │          lucide-react.js
+│  │          motion-dom.js
+│  │          motion-utils.js
+│  │          next.js
+│  │          
+│  ├─static
+│  │  ├─chunks
+│  │  │  │  app-pages-internals.js
+│  │  │  │  main-app.js
+│  │  │  │  polyfills.js
+│  │  │  │  webpack.js
+│  │  │  │  
+│  │  │  └─app
+│  │  │          layout.js
+│  │  │          page.js
+│  │  │          
+│  │  ├─css
+│  │  │  └─app
+│  │  │          layout.css
+│  │  │          
+│  │  ├─development
+│  │  │      _buildManifest.js
+│  │  │      _ssgManifest.js
+│  │  │      
+│  │  ├─media
+│  │  │      19cfc7226ec3afaa-s.woff2
+│  │  │      21350d82a1f187e9-s.woff2
+│  │  │      8e9860b6e62d6359-s.woff2
+│  │  │      ba9851c3c22cd980-s.woff2
+│  │  │      c5fe6dc8356a8c31-s.woff2
+│  │  │      df0a9ae256c0569c-s.woff2
+│  │  │      e4af272ccee01ff0-s.p.woff2
+│  │  │      
+│  │  └─webpack
+│  │          633457081244afec._.hot-update.json
+│  │          
+│  └─types
+│      │  cache-life.d.ts
+│      │  package.json
+│      │  
+│      └─app
+│              layout.ts
+│              page.ts
+│              
+├─app
+│  │  layout.tsx
+│  │  page.tsx
+│  │  
+│  ├─about
+│  │      page.tsx
+│  │      
+│  ├─career
+│  │      page.tsx
+│  │      
+│  ├─contact
+│  │      page.tsx
+│  │      
+│  ├─ir
+│  │  │  page.tsx
+│  │  │  
+│  │  ├─investors
+│  │  │      page.tsx
+│  │  │      
+│  │  └─reports
+│  │          page.tsx
+│  │          
+│  ├─partners
+│  │      page.tsx
+│  │      
+│  ├─services
+│  │  │  page.tsx
+│  │  │  
+│  │  ├─analytics
+│  │  │      page.tsx
+│  │  │      
+│  │  ├─apis
+│  │  │      page.tsx
+│  │  │      
+│  │  ├─crm
+│  │  │      page.tsx
+│  │  │      
+│  │  └─payinfra
+│  │          page.tsx
+│  │          
+│  ├─solutions
+│  │  │  page.tsx
+│  │  │  
+│  │  ├─fintech
+│  │  │      page.tsx
+│  │  │      
+│  │  ├─global
+│  │  │      page.tsx
+│  │  │      
+│  │  ├─online
+│  │  │      page.tsx
+│  │  │      
+│  │  └─retail
+│  │          page.tsx
+│  │          
+│  └─tech
+│      │  page.tsx
+│      │  
+│      ├─architecture
+│      │      page.tsx
+│      │      
+│      ├─dashboard
+│      │      page.tsx
+│      │      
+│      ├─security
+│      │      page.tsx
+│      │      
+│      └─system
+│              page.tsx
+│              
+├─components
+│  ├─animations
+│  │      FadeUp.ts
+│  │      RevealText.ts
+│  │      StaggerContainer.ts
+│  │      
+│  ├─home
+│  │      CoreFeatures.tsx
+│  │      CTASection.tsx
+│  │      Hero.tsx
+│  │      IntegrationShowcase.tsx
+│  │      PartnerLogos.tsx
+│  │      TechHighlights.tsx
+│  │      Testimonials.tsx
+│  │      ValueProposition.tsx
+│  │      
+│  ├─layout
+│  │      Footer.tsx
+│  │      MobileMenu.tsx
+│  │      Navbar.tsx
+│  │      PageHeader.tsx
+│  │      SmoothScroll.tsx
+│  │      
+│  ├─shared
+│  │      AnimatedCounter.tsx
+│  │      BadgeList.tsx
+│  │      Button.tsx
+│  │      Card.tsx
+│  │      IconBadge.tsx
+│  │      SectionTitle.tsx
+│  │      
+│  ├─tech
+│  │      ArchitectureFlow.tsx
+│  │      InfraDiagram.tsx
+│  │      LogSystemVisualizer.tsx
+│  │      MonitoringGraph.tsx
+│  │      SecurityPanel.tsx
+│  │      
+│  └─ui
+│          Accordion.tsx
+│          InputField.tsx
+│          Modal.tsx
+│          Tabs.tsx
+│          Tooltip.tsx
+│          
+├─hooks
+│      useCounter.ts
+│      useInView.ts
+│      useScrollAnimation.ts
+│      useTheme.ts
+│      
+├─lib
+│  │  constants.ts
+│  │  seo.config.ts
+│  │  utils.ts
+│  │  
+│  └─data
+│          features.ts
+│          partners.ts
+│          timeline.ts
+│          
+├─styles
+│      globals.css
+│      typography.css
+│      
+└─types
+        common.d.ts
+        feature.d.ts
+        partner.d.ts
+        

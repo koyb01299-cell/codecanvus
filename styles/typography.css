@@ -1,0 +1,190 @@
+/* ==========================================================================
+   Typography.css
+   - Stripe/Snowflake 스타일의 엔터프라이즈 타이포그래피 시스템
+   - 전역 글꼴 리듬, 헤딩 간격, paragraph 스타일 통일
+   ========================================================================== */
+
+/* -------------------------------
+   Headings (H1 ~ H6)
+-------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    margin-top: 0;
+    color: #1c1538;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 6vw, 3.75rem);
+    line-height: 1.12;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.18;
+    margin-bottom: 0.85rem;
+}
+
+h3 {
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.65rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+h6 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+/* -------------------------------
+   Paragraphs
+-------------------------------- */
+
+p {
+    font-size: 1rem;
+    line-height: 1.68;
+    margin-bottom: 1rem;
+    color: #4d4667;
+}
+
+/* for long paragraphs */
+p+p {
+    margin-top: 0.5rem;
+}
+
+/* -------------------------------
+   Strong / Emphasis
+-------------------------------- */
+
+strong {
+    font-weight: 700;
+    color: #1c1538;
+}
+
+em {
+    font-style: italic;
+}
+
+/* -------------------------------
+   Links
+-------------------------------- */
+
+a {
+    color: #7b5cf4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------------------
+   Lists
+-------------------------------- */
+
+ul,
+ol {
+    margin: 1rem 0;
+    padding-left: 1.4rem;
+    color: #4d4667;
+}
+
+li {
+    margin-bottom: 0.3rem;
+    line-height: 1.65;
+}
+
+/* -------------------------------
+   Blockquote
+-------------------------------- */
+
+blockquote {
+    border-left: 4px solid #7b5cf4;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #4d4667;
+    font-style: italic;
+    background: #f8f6ff;
+}
+
+/* -------------------------------
+   Code / Preformatted
+-------------------------------- */
+
+code {
+    background-color: #f3edff;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: "JetBrains Mono", monospace;
+    color: #7b5cf4;
+    font-size: 0.9rem;
+}
+
+pre {
+    background: #f3edff;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: "JetBrains Mono", monospace;
+    color: #1c1538;
+    font-size: 0.9rem;
+}
+
+/* -------------------------------
+   HR Line
+-------------------------------- */
+
+hr {
+    border: none;
+    border-top: 1px solid #ebe5ff;
+    margin: 2rem 0;
+}
+
+/* -------------------------------
+   Tables
+-------------------------------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ebe5ff;
+}
+
+th {
+    font-weight: 700;
+    color: #1c1538;
+}
+
+/* -------------------------------
+   Small Text
+-------------------------------- */
+
+small {
+    font-size: 0.85rem;
+    color: #6b6280;
+}

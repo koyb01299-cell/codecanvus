@@ -1,0 +1,96 @@
+{
+  "compilerOptions": {
+    /* --------------------------------------------------------
+       Basic Setup
+    -------------------------------------------------------- */
+    "target": "ES2020",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2020"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "incremental": true,
+    "isolatedModules": true,
+    /* --------------------------------------------------------
+       JSX / React
+    -------------------------------------------------------- */
+    "jsx": "preserve",
+    "jsxImportSource": "react",
+    /* --------------------------------------------------------
+       Path Alias — CodeCanvas 전용
+       app/page.tsx 부터 모든 컴포넌트 import 간소화
+    -------------------------------------------------------- */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@/app/*": [
+        "app/*"
+      ],
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/home/*": [
+        "components/home/*"
+      ],
+      "@/layout/*": [
+        "components/layout/*"
+      ],
+      "@/shared/*": [
+        "components/shared/*"
+      ],
+      "@/tech/*": [
+        "components/tech/*"
+      ],
+      "@/ui/*": [
+        "components/ui/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/lib/*": [
+        "lib/*"
+      ],
+      "@/styles/*": [
+        "styles/*"
+      ],
+      "@/types/*": [
+        "types/*"
+      ]
+    },
+    /* --------------------------------------------------------
+       TypeScript Behavior
+    -------------------------------------------------------- */
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  /* --------------------------------------------------------
+     Next.js 자동 타입 포함
+  -------------------------------------------------------- */
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
